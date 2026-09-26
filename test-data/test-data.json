@@ -1,0 +1,32 @@
+{
+  "validPost": {
+    "title": "QA API Testing",
+    "body": "Testing REST APIs using Postman",
+    "userId": 1
+  },
+  "updatedPostPUT": {
+    "id": 1,
+    "title": "Updated Title via PUT",
+    "body": "Updated body content via PUT request",
+    "userId": 1
+  },
+  "updatedPostPATCH": {
+    "title": "Partially Updated Title via PATCH"
+  },
+  "invalidDataTypePost": {
+    "title": "Invalid Data Type Test",
+    "body": "userId sent as a string instead of a number",
+    "userId": "one"
+  },
+  "emptyPost": {},
+  "boundaryIds": {
+    "minValidId": 1,
+    "maxValidId": 100,
+    "nonExistentId": 999999,
+    "nonNumericId": "abc",
+    "zeroId": 0,
+    "negativeId": -1
+  },
+  "validExistingUserIds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "commentsSamplePostId": 1
+}

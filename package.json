@@ -1,0 +1,23 @@
+{
+  "name": "api-testing-postman",
+  "version": "1.0.0",
+  "description": "REST API Testing portfolio project using Postman and Newman, tested against JSONPlaceholder.",
+  "scripts": {
+    "test": "newman run postman/collections/API_Testing_Collection.json -e postman/environments/QA_Environment.json",
+    "test:html": "newman run postman/collections/API_Testing_Collection.json -e postman/environments/QA_Environment.json -r cli,htmlextra --reporter-htmlextra-export reports/api-test-report.html"
+  },
+  "keywords": [
+    "api-testing",
+    "postman",
+    "newman",
+    "qa",
+    "rest-api",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}

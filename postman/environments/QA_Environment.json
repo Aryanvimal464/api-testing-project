@@ -1,0 +1,19 @@
+{
+  "id": "qa-environment-jsonplaceholder",
+  "name": "QA_Environment",
+  "values": [
+    {
+      "key": "baseUrl",
+      "value": "https://jsonplaceholder.typicode.com",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "createdPostId",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment"
+}
